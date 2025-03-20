@@ -13,16 +13,10 @@ public class Person_Simulator {
 		
 		
 		
-		person practice = new person(name,surname,date,gender);
+		Person practice = new Person(name,surname,date,gender);
 		practice.introduce();
 		practice.checkStatus();
-		practice.ejercitarse();
-		practice.dormir();
-		practice.ejercitarse();
-		practice.despertar();
-		practice.despertar();
-		practice.trabajar();
-		practice.trabajar();
-
+		practice.exercise();
+		practice.checkStatus();
 	}
 }

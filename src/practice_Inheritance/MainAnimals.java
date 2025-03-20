@@ -1,6 +1,6 @@
 package practice_Inheritance;
 
-public class mainAnimals {
+public class MainAnimals {
 	public static void main(String[] args) {
 
 		// perro
@@ -8,7 +8,7 @@ public class mainAnimals {
 		String name = "copito";
 		String type = "perro pastor aleman";
 
-		perro perro = new perro(name, age, type);
+		Perro perro = new Perro(name, age, type);
 		perro.introduce();
 		perro.hacerSonido();
 
