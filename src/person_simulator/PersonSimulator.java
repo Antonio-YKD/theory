@@ -3,7 +3,7 @@ package person_simulator;
 import java.time.LocalDate;
 
 
-public class Person_Simulator {
+public class PersonSimulator {
 	public static void main (String[] args) {
 		
 		String name = "yoking";

@@ -122,7 +122,7 @@ public class Person {
 			return;
 		}
 		System.out.printf("%s se fue a dormir \n", name);
-		energy = 100;
+		this.energy = 100;
 		this.status = "durmiendo";
 		System.out.printf("la energia se ha restaurado (Energia disponible %d) \n", energy);
 

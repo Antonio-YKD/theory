@@ -1,9 +1,9 @@
 package practice_Inheritance;
 
-public class Perro extends Animal {
+public class Dog extends Animal {
 
 
-	public Perro(String name, int age, String type) {
+	public Dog(String name, int age, String type) {
 		super(name, age, type);
 		this.name = name;
 		this.age = age;

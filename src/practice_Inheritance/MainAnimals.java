@@ -8,7 +8,7 @@ public class MainAnimals {
 		String name = "copito";
 		String type = "perro pastor aleman";
 
-		Perro perro = new Perro(name, age, type);
+		Dog perro = new Dog(name, age, type);
 		perro.introduce();
 		perro.hacerSonido();
 
